@@ -1,0 +1,31 @@
+.table{ 
+		background-color: maroon;
+		border-style: ridge;
+		border-width: 10px;
+		border-color: gold;
+		border-radius: 25px;
+		box-shadow: 4px 3px gold
+
+
+}
+
+.button{
+		background-color: pink;
+		border-style: outset;
+		border-color: maroon; 
+		border-radius:20px;
+		size: 16px;
+		font-size: 40px;
+		box-shadow: 3px 2px grey;
+}
+
+.operator{
+	background-color: gold;
+	border-style: outset;
+	border-color:maroon;
+	border-radius: 20px;
+	size: 16px;
+	font-size: 40px;
+	color: red;
+	box-shadow: 3px 2px grey;
+}

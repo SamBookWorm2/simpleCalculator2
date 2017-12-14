@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+</head>
+<body>
+	<form name="Calculator">
+		<table>
+		<tr>
+			<th colspan="4">
+				<input type="text" name="display" disabled="">
+			</th>
+		</tr>
+		<tr>
+			<th><input type="button" name="one" value="1" onclick="Calculator.display.value+='1' "></th>
+			<th><input type="button" name="two" value="2" onclick="Calculator.display.value+='2' "></th>
+			<th><input type="button" name="three" value="3" onclick="Calculator.display.value+='3'"></th>
+			<th><input type="button" class="operator" name="plus" value="+" onclick="Calculator.display.value+='+'"></th>
+			
+		</tr>
+		<tr>
+			<th><input type="button" name="four" value="4" onclick="Calculator.display.value+='4' "></th>
+			<th><input type="button" name="five" value="5" onclick="Calculator.display.value+='5' "></th>
+			<th><input type="button" name="six" value="6" onclick="Calculator.display.value+='6'"></th>
+			<th><input type="button" class="operator" name="minus" value="-" onclick="Calculator.display.value+='-'"></th>
+			
+		</tr>
+		<tr>
+			<th><input type="button" name="seven" value="7" onclick="Calculator.display.value+='7' "></th>
+			<th><input type="button" name="eight" value="8" onclick="Calculator.display.value+='8' "></th>
+			<th><input type="button" name="nine" value="9" onclick="Calculator.display.value+='9'"></th>
+			<th><input type="button" class="operator" name="multiply" value="*" onclick="Calculator.display.value+='*'"></th>
+			
+		</tr>
+		<tr>
+		 	<tr>
+			<th><input type="button" name="zero" value="0" onclick="Calculator.display.value+='0' "></th>
+			<th><input type="button" name="point" value="." onclick="Calculator.display.value+='.' "></th>
+			<input type="button" name="clear" value="C">
+			<th id="eval"><input type="button" class="operator" name="divide" value="/" onclick="Calculator.display.value+='/'"></th>
+							
+		</tr>
+		<tr>
+
+			<th colspan="4"><input type="button" class="operator" name="equal" value="=" onclick="Calculator.display.value=eval(Calculator.display.value) "></th>			
+		</tr>
+		</table>
+	</form>
